@@ -6,3 +6,79 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+.blue-button{
+    background-color:#0061FF;
+    border:none;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 3px;
+}
+
+/* regole top header*/
+.top-header{
+    width: 100%;
+    display: flex;
+}
+.top_header{
+    width: 50%;
+    display:flex;
+    align-items: center;
+}
+.top-header_content{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(165, 162, 162);
+    margin: 3px;
+    font-size: small;
+}
+
+/*regole main header*/
+.main-header{
+    width: 100%;
+    background-color: rgb(185, 200, 247);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-header_container{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: relative;
+}
+.main-header_container>h1{
+    font-size: 60px;
+}
+.main-header_small>p{
+    font-size: 15px;
+}
+.main-header_small{
+    width: 40%;
+    padding-right: 10px;
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.annulla{
+    position: absolute;
+    top: 65%;
+    left:0;
+    font-size: 15px;
+}
+.freccia{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: black;
+    font-size:30px;
+}
+.main-header_big{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: -5%;
+}
