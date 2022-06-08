@@ -18,6 +18,8 @@ html{
 .top-header{
     width: 100%;
     display: flex;
+    position: fixed;
+    z-index: 999;
 }
 .top_header{
     width: 50%;
@@ -49,6 +51,7 @@ html{
 }
 .main-header_container>h1{
     font-size: 60px;
+    font-weight: bold;
 }
 .main-header_small>p{
     font-size: 15px;
@@ -58,14 +61,16 @@ html{
     padding-right: 10px;
     position: relative;
 }
+/*riferimento al bottone main header*/
 .header-content{
     position: absolute;
     top: 50%;
     left: 0;
 }
+/*fine riferimento al bottone main header*/
 .annulla{
     position: absolute;
-    top: 65%;
+    top: 70%;
     left:0;
     font-size: 15px;
 }
@@ -81,4 +86,33 @@ html{
     position: absolute;
     right: 0;
     bottom: -5%;
+}
+/*inizio regole main*/
+.business{
+    width: 50%;
+    padding-top: 70px;
+    margin: auto;
+}
+.business>h2{
+    font-size: 30px;
+}
+.check_container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.check{
+    margin-right: 20px;
+    font-size: 12px;
+}
+.solutions_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.solution{
+    width: 30%;
+    height: 100%;
+    border: solid 2px lightgrey;
 }

@@ -1,7 +1,7 @@
 /*regole top header*/
 .top-header{
     height: 9vh;
-    
+    background-color: #fff;
 }
 .left{
     height: 100%;
@@ -28,4 +28,12 @@
     height: 65%;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+}
+/*inizio regole main*/
+.solutions_container{
+    height: 90vh;
+    
+}
+.solution{
+    
 }
