@@ -13,6 +13,12 @@ html{
     padding: 6px 12px;
     margin: 3px;
 }
+.white-button{
+    background-color: #fff;
+    border: solid 1px grey;
+    color:black;
+    padding:6px 12px;
+}
 
 /* regole top header*/
 .top-header{
@@ -127,7 +133,7 @@ section>h2{
 }
 .solutions_container{
     width: 100%;
-    height: 90vh;
+    height: 800px;
     display: flex;
     justify-content: space-between;
     margin-bottom:50px;
@@ -142,6 +148,10 @@ section>h2{
     margin-top: 15px;
     margin-left: 8px;
     margin-bottom:10px;
+}
+.solution>span{
+    font-size: 13px;
+    margin-left:8px;
 }
 .prezzo{
     font-size: 12px;
@@ -158,6 +168,7 @@ section>h2{
     width: 100%;
     margin-bottom: 20px;
     margin-top: 15px;
+    height: 30%;
 }
 .caratteristiche-text{
     font-size:13px;
@@ -166,15 +177,38 @@ section>h2{
 }
 .item{
     margin-bottom: 5px;
+    position: relative;
 }
-.utente{
-    list-style-type:;
-}
+
 .text{
     display: inline-block;
+    width: 88%;
 }
 .icon{
     display: inline-block;
+    width: 8%;
+    position: absolute;
+    left:-20px;
+}
+.center{
+    margin-left: 13px;
+    margin-bottom: 13px;
+}
+.info{
+    width: 100%;
+    margin-top:30px;
+}
+.info>h4{
+    font-size: small;
+    margin-left: 8px;
+    margin-bottom:20px;
+}
+.info-list{
+    padding-left: 22px;
+}
+.info-text{
+    font-size:12px;
+    margin-bottom: 5px;
 }
 
 .head-solution{
@@ -193,6 +227,28 @@ section>h2{
     height: 30vh;
     margin-bottom:100px;
     border:solid 2px lightgray;
+    position: relative;
+}
+.enterprise>h3{
+    position: absolute;
+    left: 8px;
+    top: 35px;
+}
+.enterprise>h4{
+    position: absolute;
+    left: 8px;
+    top:65px;
+}
+.enterprise>p{
+    position: absolute;
+    left: 8px;
+    bottom:20px;
+    font-size: 13px;
+}
+.enterprise-button{
+    position: absolute;
+    right:8px;
+    top:35px;
 }
 .small_enterprise{
     width: 100%;
@@ -206,18 +262,24 @@ section>h2{
 .partner{
     width: 100%;
     height: 60vh;
-    border:solid 1px black;
+    
     display:flex;
 }
 .partner_image{
     width: 60%;
     height: 100%;
-    border-right: solid 1px black;
+    background-image: url(../img/partner.png);
+    background-size: cover;
 }
 .partner_info{
     width:40%;
     height: 100%;
-    background-color: aqua;
+    padding: 20px;
+}
+.partner_info>p{
+    margin-top:20px;
+    margin-bottom:50px;
+    font-size: 13px;
 }
 /*regole operazioni*/
 .operazioni{
@@ -227,8 +289,8 @@ section>h2{
 }
 .container-operazioni{
     width: 100%;
-    height: 100vh;
-    background-color: deeppink;
+    height: 120vh;
+    background-color:white;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -236,17 +298,45 @@ section>h2{
 .content-operazioni{
     width: calc(100% / 3);
     height: 50%;
-    border: solid 1px black;
+    margin-bottom:20px;
 }
 .img-operazioni {
     width: 100%;
     height: 50%;
-    border:solid 1px black;
+    
+}
+.prima{
+    background-image:url(../img/business-feature-switching-tools.png);
+    background-size:cover;
+}
+.seconda{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size:cover;
+}
+.terza{
+    background-image:url(../img/business-feature-coordinate-it.png);
+    background-size: cover;
+}
+.quarta{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size: cover;
+}
+.quinta{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size: cover;
+}
+.sesta{
+    background-image: url(../img/business-feature-security.png);
+    background-size: cover;
 }
 .text-operazioni{
     width: 100%;
     height: 50%;
-    border: solid 1px red;
+    padding: 10px;
+}
+.text-operazioni>p{
+    font-size: 12px;
+    margin-top:10px;
 }
 /*regole customers*/
 .customers{
