@@ -210,3 +210,39 @@ section>h2{
     border: solid 1px red;
 }
 /*regole customers*/
+.text-customers{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.text-customers>h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.text-customers>a{
+    font-size: 15px;
+}
+.square-container{
+    width: 100%;
+    background-color: maroon;
+    display:flex;
+}
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: solid 1px white;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.small-square{
+    width: 50%;
+    height: 50%;
+    border:solid 1px black;
+}
+.prova{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(139, 187, 187);
+}
