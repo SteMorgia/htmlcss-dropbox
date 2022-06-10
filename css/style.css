@@ -456,7 +456,7 @@ section>h2{
 }
 .hover-button{
     position:absolute;
-    top:35%;
+    top:25px;
     right:3px;
 }
 .container-domanda>p{
@@ -471,7 +471,16 @@ section>h2{
 .button-up{
     display: none;
 }
-
+.hover-button:hover .button-up{
+    display: block;
+}
+.hover-button:hover .button-down{
+    display:none;
+}
+.hover-button:hover + p{
+    display: block;
+}
+ 
 /*regole footer*/
 footer{
     width: 100%;
