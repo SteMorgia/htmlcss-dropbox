@@ -356,13 +356,11 @@ section>h2{
 }
 .square-container{
     width: 100%;
-    background-color: maroon;
     display:flex;
 }
 .square{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: solid 1px white;
 }
 .flex{
     display:flex;
@@ -371,12 +369,72 @@ section>h2{
 .small-square{
     width: 50%;
     height: 50%;
-    border:solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.small-square>img{
+   width: 65%;
+   filter: invert(100%);
+}
+.des{
+    background-color: rgb(146, 197, 146);
+    border: 10px solid lightgrey;
+}
+.asu{
+    background-color: rgb(95, 20, 51);
+}
+.uf{
+    background-color: #0061FF;
+}
+.topps{
+    background-color: rgb(255, 65, 40);
+}
+.wbr{
+    background-color: rgb(255, 30, 0);
+}
+.hearst{
+    background-color: rgb(139, 187, 187);
+}
+.lon{
+    background-color: blue;
+}
+.clear{
+    background-color: rgb(255, 255, 68)
+}
+.designit{
+    padding: 20px;
+    background-color: lightgray;
+    overflow: auto;
+}
+.designit>img{
+    width: 65%;
+}
+.designit>p{
+    margin-top:40px;
+    font-size: 13px;
+}
+
 .prova{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     background-color: rgb(139, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prova-content{
+    width: 50%;
+    position:relative;
+}
+.prova-content>h2{
+    font-size: 30px;
+    color: rgb(95, 36, 95);
+}
+.prova-content>button{
+    position:absolute;
+    top: 5px;
+    right: 0;
 }
 /*regole domande*/
 .domande{
@@ -392,4 +450,31 @@ section>h2{
 .domande>p{
     line-height: 70px;
     font-size: 15px;
+}
+/*regole footer*/
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+.footer-container{
+    width: 65%;
+    margin:auto;
+    display: flex;
+    padding-top:70px;
+}
+.footer-nav{
+    width: calc(100% / 5);
+}
+.footer-nav>h4{
+    color: #fff;
+    margin-bottom:15px;
+}
+.footer-nav>ul{
+    list-style-type: none;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-nav ul li{
+    padding: 5px 0px;
 }
